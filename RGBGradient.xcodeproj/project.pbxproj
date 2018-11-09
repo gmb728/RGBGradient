@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		DD6C8D3E2195542300868EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C8D3D2195542300868EE5 /* AppDelegate.swift */; };
-		DD6C8D402195542300868EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C8D3F2195542300868EE5 /* ViewController.swift */; };
-		DD6C8D432195542300868EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6C8D412195542300868EE5 /* Main.storyboard */; };
 		DD6C8D452195542400868EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6C8D442195542400868EE5 /* Assets.xcassets */; };
 		DD6C8D482195542400868EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6C8D462195542400868EE5 /* LaunchScreen.storyboard */; };
+		DD6C8D52219555D900868EE5 /* Mainrgb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6C8D51219555D900868EE5 /* Mainrgb.storyboard */; };
+		DD6C8D58219556E500868EE5 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C8D57219556E500868EE5 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD6C8D3A2195542300868EE5 /* RGBGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6C8D3D2195542300868EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD6C8D3F2195542300868EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD6C8D422195542300868EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD6C8D442195542400868EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD6C8D472195542400868EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD6C8D492195542400868EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6C8D51219555D900868EE5 /* Mainrgb.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Mainrgb.storyboard; path = ../../../../Desktop/recovered/Mainrgb.storyboard; sourceTree = "<group>"; };
+		DD6C8D57219556E500868EE5 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyViewController.swift; path = ../../../../Desktop/recovered/MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				DD6C8D3D2195542300868EE5 /* AppDelegate.swift */,
-				DD6C8D3F2195542300868EE5 /* ViewController.swift */,
-				DD6C8D412195542300868EE5 /* Main.storyboard */,
+				DD6C8D57219556E500868EE5 /* MyViewController.swift */,
+				DD6C8D51219555D900868EE5 /* Mainrgb.storyboard */,
 				DD6C8D442195542400868EE5 /* Assets.xcassets */,
 				DD6C8D462195542400868EE5 /* LaunchScreen.storyboard */,
 				DD6C8D492195542400868EE5 /* Info.plist */,
@@ -123,8 +123,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD6C8D482195542400868EE5 /* LaunchScreen.storyboard in Resources */,
+				DD6C8D52219555D900868EE5 /* Mainrgb.storyboard in Resources */,
 				DD6C8D452195542400868EE5 /* Assets.xcassets in Resources */,
-				DD6C8D432195542300868EE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6C8D402195542300868EE5 /* ViewController.swift in Sources */,
+				DD6C8D58219556E500868EE5 /* MyViewController.swift in Sources */,
 				DD6C8D3E2195542300868EE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DD6C8D412195542300868EE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD6C8D422195542300868EE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD6C8D462195542400868EE5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
